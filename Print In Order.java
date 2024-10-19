@@ -1,5 +1,5 @@
 class Foo {
-    Semaphore s1=new Semaphore(0);
+    Semaphore s1=new Semaphore(0);   //0 means initially unavailable for acquiring
     Semaphore s2=new Semaphore(0);
 
     public Foo() {
